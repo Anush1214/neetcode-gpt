@@ -8,7 +8,7 @@ class Solution:
         # z is a 1D NumPy array
         # Formula: 1 / (1 + e^(-z))
         # return np.round(your_answer, 5)
-        x=z
+    
         form=1/(1+np.exp(-z))
         return np.round(form,5)
 
